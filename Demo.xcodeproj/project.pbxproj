@@ -16,7 +16,6 @@
 		D438A2CA1EF37BDF004912F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D438A2C81EF37BDF004912F1 /* Main.storyboard */; };
 		D438A2CC1EF37BDF004912F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D438A2CB1EF37BDF004912F1 /* Assets.xcassets */; };
 		D438A2CF1EF37BDF004912F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D438A2CD1EF37BDF004912F1 /* LaunchScreen.storyboard */; };
-		D43CE9711F973A4C00ACD0DD /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = D43CE9701F973A4C00ACD0DD /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +35,6 @@
 		D438A2CB1EF37BDF004912F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D438A2CE1EF37BDF004912F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D438A2D01EF37BDF004912F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D43CE96F1F973A4C00ACD0DD /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
-		D43CE9701F973A4C00ACD0DD /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +82,6 @@
 				D4246EBA1F0786050074D5E2 /* ClotherSeller.m */,
 				D4246EBC1F0787D10074D5E2 /* SellerProxy.h */,
 				D4246EBD1F0787D10074D5E2 /* SellerProxy.m */,
-				D43CE96F1F973A4C00ACD0DD /* TestView.h */,
-				D43CE9701F973A4C00ACD0DD /* TestView.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -188,7 +183,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D43CE9711F973A4C00ACD0DD /* TestView.m in Sources */,
 				D4246EBB1F0786050074D5E2 /* ClotherSeller.m in Sources */,
 				D438A2C71EF37BDF004912F1 /* ViewController.m in Sources */,
 				D4246EB81F0785F20074D5E2 /* BookSeller.m in Sources */,

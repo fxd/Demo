@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "TestView.h"
+
 
 static const CGFloat kAnimationDuration = 0.3;
 #define kSearchTextAlpha 1
@@ -30,18 +30,6 @@ static const CGFloat kAnimationDuration = 0.3;
     [self addObserver:self forKeyPath:@"array" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
     
     [self.array addObject:@"xx"];
-    
-     
-    TestView *tv = [[TestView alloc] initWithFrame:CGRectMake(100, 100, 100, 50)];
-    tv.backgroundColor = [UIColor yellowColor];
-    [self.view addSubview:tv];
-    
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.backgroundColor = [UIColor grayColor];
-    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
-    btn.frame =CGRectMake(0, 0, 50, 50);
-    [tv addSubview:btn];
-
 }
 
 - (void)click {
